@@ -1,8 +1,24 @@
-# Customer Churn Prediction
 
-## Project Overview
+## 🚀 Featured Project: Customer Churn Prediction
 
-This project analyses telecom customer data to identify factors associated with customer churn and develop machine-learning models to predict customers who are likely to leave.
+### 📌 Project Overview
+Developed a machine learning pipeline to predict customer churn using historical user data. By identifying key indicators of churn, this project enables businesses to proactively implement targeted customer retention strategies.
+
+### 🛠️ Tech Stack & Tools
+- **Language:** Python
+- **Libraries:** Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- **Environment:** Jupyter Notebook
+
+### 📊 Dataset & Features
+The project analyzes user data stored in the `data/` directory (`customer-churn-prediction.csv`). Core features evaluated include:
+- **Demographics:** Age, tenure, and customer profile details.
+- **Account Details:** Contract type, payment method, and monthly charges.
+- **Activity Metrics:** Usage frequency and customer service interactions.
+
+### 🎯 Key Results
+- Cleaned and preprocessed raw data by handling missing values, encoding categorical variables, and scaling numerical features.
+- Developed and evaluated multiple classification models (including Logistic Regression and Random Forest) to compare baseline performances.
+- Extracted feature importances to highlight the top driving factors behind customer churn.
 
 The project covers:
 
